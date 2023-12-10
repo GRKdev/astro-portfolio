@@ -1,0 +1,44 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "SterbenVD",
+      "name": "Vishal Vijay Devadiga",
+      "avatar_url": "https://avatars.githubusercontent.com/u/90999906?v=4",
+      "profile": "https://github.com/SterbenVD",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "khushChopra",
+      "name": "Khush Chopra",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43996455?v=4",
+      "profile": "https://github.com/khushChopra",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "javadshoja",
+      "name": "Javad Shoja",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57140027?v=4",
+      "profile": "http://jbrave.ir",
+      "contributions": [
+        "maintenance"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "astro-portfolio-template",
+  "projectOwner": "MaeWolff"
+}
