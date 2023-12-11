@@ -1,9 +1,9 @@
 ---
 title: "The Power Of React Hooks"
 publishedAt: 2023-05-24
-description: "Lorem ipsum dolor sit amet consectetur et ultrices blandit neque ege"
-slug: "the-power-of-react-hooks"
+description: "Chatbot API constituye una interfaz sofisticada que facilita la interacción en tiempo real con nuestra base de datos empresarial. Permite acceder a información como registros de clientes, inventario de artículos, albaranes y métricas financieras."
 isPublish: true
+techs: ["ReactJS (NextJS)", "react-query", "zod"]
 ---
 
 ## Vocesque meum remis est neque Neptunus monte
