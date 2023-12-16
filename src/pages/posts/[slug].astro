@@ -21,7 +21,7 @@ const { Content } = await post.render();
 ---
 
 <Layout>
-  <main class="post mx-auto flex w-full max-w-prose flex-col gap-4">
+  <main class="post mx-auto flex w-9/12 flex-col gap-4">
     <div role="list" class="flex flex-row gap-2" >
       {post.data.github && (
         <a href={post.data.github} target="_blank" style={{ textDecoration: 'none'}} class="hover:text-orange-500">

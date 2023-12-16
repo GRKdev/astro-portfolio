@@ -10,11 +10,10 @@ image:
 github: "https://github.com/GRKdev/StreamLit-Api"
 website: ""
 technologies:
-  - "React"
-  - "Gatsby"
-  - "GraphQL"
-  - "Tailwind"
-  - "Netlify"
+  - "/svg/python.svg"
+  - "/svg/openai.svg"
+
+
 ---
 
 ## FT-UP: OpenAI FineTuning Upload Script

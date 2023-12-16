@@ -70,6 +70,7 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
                   image={post.data.image.src}
                   imgAlt={post.data.image.alt}
                   slug={post.slug}
+                  technologies={post.data.technologies}
                 />
               ))
         }

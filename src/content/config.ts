@@ -14,6 +14,7 @@ const postsCollection = defineCollection({
     }),
     github: z.string(),
     website: z.string(),
+    technologies: z.array(z.string()),
   }),
 });
 

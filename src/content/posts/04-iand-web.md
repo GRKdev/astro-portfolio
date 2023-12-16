@@ -10,11 +10,11 @@ image:
 github: ""
 website: "https://iand.dev/"
 technologies:
-  - "React"
-  - "Gatsby"
-  - "GraphQL"
-  - "Tailwind"
-  - "Netlify"
+  - "/svg/react.svg"
+  - "/svg/nextjs.svg"
+  - "/svg/vercel.svg"
+  - "/svg/shadcn.svg"
+  - "/svg/mongodb.svg"
 ---
 
 ## Hello World

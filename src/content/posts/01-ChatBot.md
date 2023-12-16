@@ -4,7 +4,12 @@ publishedAt: 2023-05-24
 description: "Sophisticated interface that enables real-time interaction with our business database, providing access to customer records, item inventory, delivery notes, and financial metrics."
 slug: "chatbot-api"
 isPublish: true
-technologies: ["ReactJS (NextJS)", "react-query", "zod"]
+technologies:
+  - "/svg/python.svg"
+  - "/svg/streamlit.svg"
+  - "/svg/openai.svg"
+  - "/svg/mongodb.svg"
+  - "/svg/docker.svg"
 image: 
   src: "/post_img/chatbot.webp"
   alt: "Chatbot API"

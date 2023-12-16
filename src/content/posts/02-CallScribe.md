@@ -9,6 +9,14 @@ image:
   alt: "CallScribe"
 github: "https://github.com/GRKdev/Callscribe"
 website: "https://cc.iand.dev/"
+technologies:
+  - "/svg/react.svg"
+  - "/svg/nextjs.svg"
+  - "/svg/python.svg"
+  - "/svg/fastapi.svg"
+  - "/svg/openai.svg"
+  - "/svg/mongodb.svg"
+  - "/svg/docker.svg"
 ---
 
 

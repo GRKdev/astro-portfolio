@@ -1,16 +1,15 @@
 ---
 type Props = {
   title: string;
-  // publishedAt: Date;
   description: string;
   slug: string;
   image: string;
   imgAlt: string;
-  // technologies: string[];
+  technologies: string[];
 
 };
 
-const { title, description, slug, image, imgAlt } = Astro.props;
+const { title, description, slug, image, imgAlt, technologies } = Astro.props;
 ---
 
 <a
@@ -28,8 +27,6 @@ const { title, description, slug, image, imgAlt } = Astro.props;
   
     <p class="text-neutral-100">{title}</p>
     <div class="flex flex-row items-center gap-4">
-      <!-- <p>{formatDate(publishedAt)}</p> -->
-
       <svg
         width="18"
         height="18"
@@ -55,8 +52,9 @@ const { title, description, slug, image, imgAlt } = Astro.props;
     {description}
   </p>
 
-  <!-- <div class="flex flex-row flex-wrap gap-2">
-    {technologies.map((tech) => (
-      <span class="text-neutral-100 text-sm">{tech}</span>
-    ))} -->
+  <div class="flex flex-row flex-wrap pt-4 gap-2 justify-center">
+    {technologies.map((tech, index) => (
+      <img  src={tech} alt={`Technology ${index}`} class="h-5"/>
+    ))}
+  </div>
 </a>

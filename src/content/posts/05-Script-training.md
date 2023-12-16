@@ -10,11 +10,11 @@ image:
 github: "https://github.com/GRKdev/Script-SQL-API"
 website: ""
 technologies:
-  - "React"
-  - "Gatsby"
-  - "GraphQL"
-  - "Tailwind"
-  - "Netlify"
+  - "/svg/python.svg"
+  - "/svg/streamlit.svg"
+  - "/svg/openai.svg"
+  - "/svg/mongodb.svg"
+  - "/svg/docker.svg"
 ---
 
 ## JsonL Generator for API Queries to MongoDB Database
