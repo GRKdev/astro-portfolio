@@ -7,8 +7,8 @@ isPublish: true
 image: 
   src: "/post_img/iand-web.webp"
   alt: "IAND Web"
-github: "https://github.com/GRKdev/StreamLit-Api"
-website: "https://langchat.iand.dev/"
+github: ""
+website: "https://iand.dev/"
 technologies:
   - "React"
   - "Gatsby"

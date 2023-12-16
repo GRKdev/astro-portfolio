@@ -6,7 +6,7 @@ slug: "CallScribe"
 isPublish: true
 image: 
   src: "/post_img/callscribe.webp"
-  alt: "Chatbot API"
+  alt: "CallScribe"
 github: "https://github.com/GRKdev/Callscribe"
 website: "https://cc.iand.dev/"
 ---

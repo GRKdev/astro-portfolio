@@ -6,9 +6,9 @@ slug: "FT-UP"
 isPublish: true
 image: 
   src: "/post_img/ftup.webp"
-  alt: "Chatbot API"
+  alt: "FT-UP"
 github: "https://github.com/GRKdev/StreamLit-Api"
-website: "https://langchat.iand.dev/"
+website: ""
 technologies:
   - "React"
   - "Gatsby"

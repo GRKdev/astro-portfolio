@@ -6,7 +6,7 @@ slug: "script-training"
 isPublish: true
 image: 
   src: "/post_img/38.jpeg"
-  alt: "IAND Web"
+  alt: "script-training"
 github: "https://github.com/GRKdev/Script-SQL-API"
 website: ""
 technologies:
