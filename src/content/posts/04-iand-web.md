@@ -5,7 +5,7 @@ description: "IAND Web is a web application that allows you to create and manage
 slug: "script-python"
 isPublish: true
 image: 
-  src: "/post_img/38.jpeg"
+  src: "/post_img/iand-web.webp"
   alt: "IAND Web"
 github: "https://github.com/GRKdev/StreamLit-Api"
 website: "https://langchat.iand.dev/"

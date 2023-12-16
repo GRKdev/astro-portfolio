@@ -5,7 +5,7 @@ description: "This script is crafted to optimize the data preparation tasks requ
 slug: "FT-UP"
 isPublish: true
 image: 
-  src: "/post_img/ftup.jpg"
+  src: "/post_img/ftup.webp"
   alt: "Chatbot API"
 github: "https://github.com/GRKdev/StreamLit-Api"
 website: "https://langchat.iand.dev/"

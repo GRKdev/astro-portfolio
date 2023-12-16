@@ -5,7 +5,7 @@ description: "Integrated call center management system with audio transcription,
 slug: "CallScribe"
 isPublish: true
 image: 
-  src: "/post_img/1.jpg"
+  src: "/post_img/callscribe.webp"
   alt: "Chatbot API"
 github: "https://github.com/GRKdev/Callscribe"
 website: "https://cc.iand.dev/"
