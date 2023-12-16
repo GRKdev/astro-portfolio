@@ -3,24 +3,30 @@ import formatDate from "@/utils/formatDate";
 
 type Props = {
   title: string;
-  publishedAt: Date;
+  // publishedAt: Date;
   description: string;
   slug: string;
   image: string;
   imgAlt: string;
-  technologies: string[];
+  // technologies: string[];
 };
 
-const { title, publishedAt, description, slug, image, imgAlt, technologies } = Astro.props;
+const { title, description, slug, image, imgAlt } = Astro.props;
 ---
 
 <a
   class="group flex max-w-sm cursor-pointer flex-col gap-2 rounded-md border border-neutral-700 p-4 transition-all duration-300 hover:-translate-y-2 hover:border-neutral-400"
   href={`/posts/${slug}`}
 >
+  <img
+    src={image}
+    alt={imgAlt}
+    class=" h-40 object-cover pb-5 rounded-md"
+  />
   <div
     class="flex w-full flex-col justify-between gap-2 md:flex-row md:items-center"
   >
+  
     <p class="text-neutral-100">{title}</p>
     <div class="flex flex-row items-center gap-4">
       <!-- <p>{formatDate(publishedAt)}</p> -->
@@ -49,11 +55,7 @@ const { title, publishedAt, description, slug, image, imgAlt, technologies } = A
   <p class="nowrap">
     {description}
   </p>
-  <img
-    src={image}
-    alt={imgAlt}
-    class="w-full h-40 object-cover pt-5"
-  />
+
   <!-- <div class="flex flex-row flex-wrap gap-2">
     {technologies.map((tech) => (
       <span class="text-neutral-100 text-sm">{tech}</span>

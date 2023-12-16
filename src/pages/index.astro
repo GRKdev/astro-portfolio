@@ -65,9 +65,11 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
               .slice(0, 4)
               .map((post) => (
                 <PostCard
-                  publishedAt={post.data.publishedAt}
+                  
                   title={post.data.title}
                   description={post.data.description}
+                  image={post.data.image.src}
+                  imgAlt={post.data.image.alt}
                   slug={post.slug}
                 />
               ))
