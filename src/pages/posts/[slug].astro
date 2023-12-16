@@ -1,7 +1,7 @@
 ---
-import { CollectionEntry, getCollection } from "astro:content";
+import { getCollection } from "astro:content";
+import type { CollectionEntry } from "astro:content";
 import Layout from "@/layouts/Layout.astro";
-import formatDate from "@/utils/formatDate";
 
 export async function getStaticPaths() {
   const posts = await getCollection("posts");
@@ -20,15 +20,22 @@ const { post } = Astro.props;
 const { Content } = await post.render();
 ---
 
-<Layout title={post.data.title} description={post.data.description}>
+<Layout>
   <main class="post mx-auto flex w-full max-w-prose flex-col gap-4">
-    <!-- <header role="presentation">
-      <h1 class=" text-lg">
-        {post.data.title}
-      </h1>
-      <p class="italic pt-2">{post.data.description}</p>
-    </header> -->
-
+    <div role="list" class="flex flex-row gap-2" >
+      {post.data.github && (
+        <a href={post.data.github} target="_blank" style={{ textDecoration: 'none'}} class="text-red-500 hover:text-neutral-500">
+          Github
+        </a>
+      )}
+      {post.data.github && post.data.website && <> / </>}
+      {post.data.website && (
+        <a href={post.data.website} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }} class=" hover:text-neutral-500">
+          Website
+        </a>
+      )}
+    </div>
+    
     <Content />
   </main>
 </Layout>

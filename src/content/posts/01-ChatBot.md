@@ -6,8 +6,10 @@ slug: "chatbot-api"
 isPublish: true
 technologies: ["ReactJS (NextJS)", "react-query", "zod"]
 image: 
-  src: "/7.jpeg"
+  src: "/post_img/7.jpeg"
   alt: "Chatbot API"
+github: "https://github.com/GRKdev/StreamLit-Api"
+website: "https://langchat.iand.dev/"
 ---
 
 ## ChatBot Streamlit

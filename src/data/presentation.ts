@@ -15,8 +15,9 @@ const presentation: Presentation = {
   mail: "gorka@iand.dev",
   title: "*Hi*, I’m Gorka ",
   // profile: "/profile.webp",
+  profile: "/12.jpeg",
   description:
-    "Hola, I'm a *andorran developer* with over *1 year* of web experience. I am currently working with *Python, NextJS and Typescript*. Interested on how AI can help us to improve our lives. Learning about *Machine Learning* and *Data Science*.",
+    "Andorran *developer* with over *1 year* of web experience. I am currently working with *Python, NextJS and Typescript*. Interested on how AI can help us to improve our lives. Learning about *Machine Learning* and *Data Science*.",
 
   socials: [
     {

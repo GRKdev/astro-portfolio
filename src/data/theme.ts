@@ -12,10 +12,10 @@ type Theme = {
 
 const theme: Theme = {
   colors: {
-    primary: "indigo",
+    primary: "orange",
     blur: {
-      top: "orange",
-      bottom: "violet",
+      top: "amber",
+      bottom: "purple",
     },
   },
 };

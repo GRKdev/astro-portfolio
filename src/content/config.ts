@@ -12,7 +12,8 @@ const postsCollection = defineCollection({
       src: z.string(),
       alt: z.string(),
     }),
-    
+    github: z.string(),
+    website: z.string(),
   }),
 });
 

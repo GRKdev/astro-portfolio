@@ -5,8 +5,10 @@ description: "This script is crafted to optimize the data preparation tasks requ
 slug: "FT-UP"
 isPublish: true
 image: 
-  src: "/ftup.jpg"
+  src: "/post_img/ftup.jpg"
   alt: "Chatbot API"
+github: "https://github.com/GRKdev/StreamLit-Api"
+website: "https://langchat.iand.dev/"
 technologies:
   - "React"
   - "Gatsby"
@@ -41,7 +43,7 @@ pip install requirements.txt
 
 ## Usage:
 
-```terminal
+```bash
 python ftup.py [-k <API_KEY>] -m <MODEL_NAME> -f <INPUT_FILE> [-s <SUFFIX>] [-e <EPOCHS>]
 ```
 
@@ -88,7 +90,7 @@ The script will load by default this key if not `-k / --key` passed as an argume
 
 ## Terminal Output Example:
 
-```terminal
+```bash
 $ python ftup.py --key your_api_key_here --file train_gpt3_5.jsonl --model gpt --epoch 1 --suffix custom-model-name
 or
 $ python ftup.py -f train_gpt3_5.jsonl -m gpt -e 1 -s custom-model-name
