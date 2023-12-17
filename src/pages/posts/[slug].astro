@@ -18,6 +18,7 @@ type Props = {
 
 const { post } = Astro.props;
 const { Content } = await post.render();
+export const prerender = true;
 ---
 
 <Layout>

@@ -1,11 +1,12 @@
 ---
 import { getCollection } from "astro:content";
 import Layout from "@/layouts/Layout.astro";
-import formatDate from "@/utils/formatDate";
 
 const posts = (await getCollection("posts")).sort(function (first, second) {
-  return second.data.publishedAt.getTime() - first.data.publishedAt.getTime();
+  return first.data.publishedAt.getTime() - second.data.publishedAt.getTime();
 });
+
+
 ---
 
 <Layout title="Template - All Posts">
@@ -47,6 +48,11 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
               </div>
             </div>
             <p>{post.data.description}</p>
+            <div class="flex flex-row flex-wrap pt-4 gap-2">
+    {post.data.technologies.map((tech, index) => (
+      <img  src={tech} alt={`Technology ${index}`} class="h-5"/>
+    ))}
+  </div>
           </a>
         ))
       }

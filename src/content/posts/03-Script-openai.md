@@ -1,6 +1,6 @@
 ---
 title: "FT-UP"
-publishedAt: 2023-05-24
+publishedAt: 2020-05-24
 description: "This script is crafted to optimize the data preparation tasks required for fine-tuning OpenAI's language models such as GPT-3.5 and Babbage, thereby enhancing the model training setup."
 slug: "FT-UP"
 isPublish: true

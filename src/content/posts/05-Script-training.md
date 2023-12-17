@@ -1,6 +1,6 @@
 ---
 title: "Script Training"
-publishedAt: 2023-05-24
+publishedAt: 2018-05-24
 description: "This program is a desktop tool that allows users to generate jsonL files to train a model with ADA (deprecated) and Babbage-002 by OpenAI. Currently, four types are supported: Clients, Articles, Delivery Notes and Finance Questions. There is a last tab to upload the training to OpenAI."
 slug: "script-training"
 isPublish: true
@@ -11,10 +11,7 @@ github: "https://github.com/GRKdev/Script-SQL-API"
 website: ""
 technologies:
   - "/svg/python.svg"
-  - "/svg/streamlit.svg"
   - "/svg/openai.svg"
-  - "/svg/mongodb.svg"
-  - "/svg/docker.svg"
 ---
 
 ## JsonL Generator for API Queries to MongoDB Database
