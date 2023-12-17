@@ -19,9 +19,10 @@ type Props = {
 const { post } = Astro.props;
 const { Content } = await post.render();
 export const prerender = true;
+const fulltitle = "Gorka V. - " + post.data.title;
 ---
 
-<Layout>
+<Layout title={fulltitle}>
   <main class="post mx-auto flex w-9/12 flex-col gap-4">
     <div role="list" class="flex flex-row gap-2" >
       {post.data.github && (

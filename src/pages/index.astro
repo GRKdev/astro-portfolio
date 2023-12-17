@@ -1,21 +1,15 @@
 ---
 import { getCollection } from "astro:content";
-import { Image } from "astro:assets"
-
 import Layout from "@/layouts/Layout.astro";
 import SocialLinks from "@/components/SocialLinks.astro";
 import PostCard from "@/components/PostCard.astro";
-import ProjectCard from "@/components/ProjectCard.astro";
 import Link from "@/components/shared/Link.astro";
 import convertAsteriskToStrongTag from "@/utils/convertAsteriskToStrongTag";
-
 import presentation from "@/data/presentation";
-import projects from "@/data/projects";
 
 const posts = (await getCollection("posts")).sort(function (first, second) {
   return second.data.publishedAt.getTime() - first.data.publishedAt.getTime();
 });
-// import '@/styles/styles.css';
 ---
 
 <Layout>
@@ -26,12 +20,12 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
       {
         presentation.profile && (
         <div class="image-container w-1/4 self-center rounded-full">
-  <img
-    src={presentation.profile}
-    alt="Your Profile"
-    class="rounded-full"
-  />
-</div>
+          <img
+            src={presentation.profile}
+            alt="Your Profile"
+            class="rounded-full"
+          />
+        </div>
         )
       }
 
@@ -77,23 +71,6 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
         }
       </section>
     </article>
-
-    <!-- <article class="flex flex-col gap-8">
-      <header class="flex w-full flex-row justify-between gap-2">
-        <h3 class="text-lg text-neutral-100">
-          What's next?
-        </h3>
-      </header>
-      {projects.length === 0 && <p>Oops, I must work^^^^^</p>}
-
-      <section class="flex flex-col gap-4">
-        {
-          projects.length !== 0 &&
-            projects.map((project) => <ProjectCard {...project} />)
-        }
-      </section>
-    </article> -->
-
     <article class="flex flex-col gap-8">
       <header class="flex w-full flex-row justify-between gap-2">
         <h3 class="text-lg text-neutral-100">Get in touch</h3>
@@ -102,7 +79,7 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
         Email me at <Link
           href={`mailto:${presentation.mail}`}
           label={presentation.mail}
-        /> or follow me via my social links.
+        />
       </p>
 
       <SocialLinks />
