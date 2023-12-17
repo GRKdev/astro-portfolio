@@ -20,4 +20,5 @@ pnpm-debug.log*
 # macOS-specific files
 .DS_Store
 
-script.py
+docker-compose.yml
+Dockerfile
