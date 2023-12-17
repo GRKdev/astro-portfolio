@@ -2,12 +2,12 @@
 import { getCollection } from "astro:content";
 import Layout from "@/layouts/Layout.astro";
 import SocialLinks from "@/components/SocialLinks.astro";
-import PostCard from "@/components/PostCard.astro";
+import ProjectCard from "@/components/ProjectCard.astro";
 import Link from "@/components/shared/Link.astro";
 import convertAsteriskToStrongTag from "@/utils/convertAsteriskToStrongTag";
 import presentation from "@/data/presentation";
 
-const posts = (await getCollection("posts")).sort(function (first, second) {
+const projects = (await getCollection("projects")).sort(function (first, second) {
   return second.data.publishedAt.getTime() - first.data.publishedAt.getTime();
 });
 ---
@@ -22,7 +22,7 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
         <div class="image-container w-1/4 self-center rounded-full">
           <img
             src={presentation.profile}
-            alt="Your Profile"
+            alt="GRK's profile picture"
             class="rounded-full"
           />
         </div>
@@ -48,24 +48,24 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
 
     <article class="flex flex-col gap-8">
       <header class="flex w-full flex-row justify-between gap-2">
-        <h3 class="text-lg text-neutral-100">Projects ({posts.length})</h3>
-        <Link href="/posts" label="See all projects" isUnderline target="_self" />
+        <h3 class="text-lg text-neutral-100">Projects ({projects.length})</h3>
+        <Link href="/projects" label="See all projects" isUnderline target="_self" />
       </header>
-      {posts.length === 0 && <p>Soon, stay connected 👀...</p>}
+      {projects.length === 0 && <p>Soon, stay connected 👀...</p>}
 
       <section class="flex flex-col gap-4 md:flex-row md:flex-wrap">
         {
-          posts.length !== 0 &&
-            posts
+          projects.length !== 0 &&
+            projects
               .slice(0, 4)
-              .map((post) => (
-                <PostCard
-                  title={post.data.title}
-                  description={post.data.description}
-                  image={post.data.image.src}
-                  imgAlt={post.data.image.alt}
-                  slug={post.slug}
-                  technologies={post.data.technologies}
+              .map((project) => (
+                <ProjectCard
+                  title={project.data.title}
+                  description={project.data.description}
+                  image={project.data.image.src}
+                  imgAlt={project.data.image.alt}
+                  slug={project.slug}
+                  technologies={project.data.technologies}
                 />
               ))
         }

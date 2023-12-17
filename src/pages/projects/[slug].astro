@@ -1,0 +1,43 @@
+---
+import { getCollection } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+import Layout from "@/layouts/Layout.astro";
+
+export async function getStaticPaths() {
+  const projects = await getCollection("projects");
+
+  return projects.map((project) => ({
+    params: { slug: project.slug },
+    props: { project },
+  }));
+}
+
+type Props = {
+  project: CollectionEntry<"projects">;
+};
+
+const { project } = Astro.props;
+const { Content } = await project.render();
+export const prerender = true;
+const fulltitle = "Gorka V. - " + project.data.title;
+---
+
+<Layout title={fulltitle}>
+  <main class="post mx-auto flex w-9/12 flex-col gap-4">
+    <div role="list" class="flex flex-row gap-2" >
+      {project.data.github && (
+        <a href={project.data.github} target="_blank" style={{ textDecoration: 'none'}} class="hover:text-orange-500">
+          Github
+        </a>
+      )}
+      {project.data.github && project.data.website && <> / </>}
+      {project.data.website && (
+        <a href={project.data.website} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }} class=" hover:text-orange-500">
+          Website
+        </a>
+      )}
+    </div>
+    
+    <Content />
+  </main>
+</Layout>

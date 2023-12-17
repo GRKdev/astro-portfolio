@@ -2,7 +2,7 @@
 import { getCollection } from "astro:content";
 import Layout from "@/layouts/Layout.astro";
 
-const posts = (await getCollection("posts")).sort(function (first, second) {
+const projects = (await getCollection("projects")).sort(function (first, second) {
   return first.data.publishedAt.getTime() - second.data.publishedAt.getTime();
 });
 
@@ -15,13 +15,13 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
 
     <article class="flex flex-col gap-4">
       {
-        posts.map((post) => (
+        projects.map((project) => (
           <a
             class="group flex flex-col gap-2 border-t border-neutral-700 py-4 transition-all hover:text-neutral-100"
-            href={`/posts/${post.slug}`}
+            href={`/projects/${project.slug}`}
           >
             <div class="flex w-full items-center justify-between">
-              <h2 class="text-lg">{post.data.title}</h2>
+              <h2 class="text-lg">{project.data.title}</h2>
 
               <div class="flex flex-row items-center gap-4">
                 
@@ -47,11 +47,11 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
                 </svg>
               </div>
             </div>
-            <p>{post.data.description}</p>
+            <p>{project.data.description}</p>
             <div class="flex flex-row flex-wrap pt-4 gap-2">
-              {post.data.technologies.map((tech, index) => (
-              <img  src={tech} alt={`Technology ${index}`} class="h-5"/>
-              ))}
+              {project.data.technologies.map((tech: string, index: number) => (
+  <img src={tech} alt={`Technology ${index}`} class="h-5"/>
+))}
             </div>
           </a>
         ))
