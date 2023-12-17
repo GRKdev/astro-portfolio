@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.salute-animation {
+    transform-origin: bottom center;
+}
+.salute-animation:hover {
+    @apply animate-tilt;
+}
+
+.image-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    transition: transform 0.3s ease;
+    width: 100%;
+    height: auto;
+  }
+  
+  .image-container:hover img {
+    transform: scale(1.4);
+  }
