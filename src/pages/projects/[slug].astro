@@ -26,13 +26,13 @@ const fulltitle = "Gorka V. - " + project.data.title;
   <main class="post mx-auto flex w-9/12 flex-col gap-4">
     <div role="list" class="flex flex-row gap-2" >
       {project.data.github && (
-        <a href={project.data.github} target="_blank" style={{ textDecoration: 'none'}} class="hover:text-orange-500">
+        <a href={project.data.github} target="_blank" style={{ textDecoration: 'none'}} class="hover:text-indigo-500">
           Github
         </a>
       )}
       {project.data.github && project.data.website && <> / </>}
       {project.data.website && (
-        <a href={project.data.website} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }} class=" hover:text-orange-500">
+        <a href={project.data.website} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }} class=" hover:text-indigo-500">
           Website
         </a>
       )}

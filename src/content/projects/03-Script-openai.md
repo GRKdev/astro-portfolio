@@ -55,7 +55,7 @@ Arguments:
 
 ## Environment Variables (optional):
 Store your API key in a `.env` file in the format:
-```
+```bash
 OPENAI_API_KEY=your_api_key_here
 ```
 The script will load by default this key if not `-k / --key` passed as an argument.
@@ -90,8 +90,6 @@ The script will load by default this key if not `-k / --key` passed as an argume
 ## Terminal Output Example:
 
 ```bash
-$ python ftup.py --key your_api_key_here --file train_gpt3_5.jsonl --model gpt --epoch 1 --suffix custom-model-name
-or
 $ python ftup.py -f train_gpt3_5.jsonl -m gpt -e 1 -s custom-model-name
     ____________            __  ______ 
    / ____/_  __/           / / / / __ \
