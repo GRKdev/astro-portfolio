@@ -16,7 +16,7 @@ module.exports = {
         },
       },
       animation: {
-        tilt: 'tilt 0.5s ease-in-out 3',
+        tilt: 'tilt 0.5s ease-in-out 8',
       },
     },
   },
