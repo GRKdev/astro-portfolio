@@ -7,7 +7,7 @@ isPublish: true
 image: 
   src: "/post_img/ftup.webp"
   alt: "FT-UP"
-github: "https://github.com/GRKdev/StreamLit-Api"
+github: "https://github.com/GRKdev/FTUP"
 website: ""
 technologies:
   - "/svg/python.svg"

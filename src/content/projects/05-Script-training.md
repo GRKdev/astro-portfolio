@@ -5,7 +5,7 @@ description: "This program is a desktop tool that allows users to generate jsonL
 slug: "script-training"
 isPublish: true
 image: 
-  src: "/post_img/38.jpeg"
+  src: ""
   alt: "script-training"
 github: "https://github.com/GRKdev/Script-SQL-API"
 website: ""
