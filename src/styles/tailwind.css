@@ -26,3 +26,7 @@
   .image-container:hover img {
     transform: scale(1.4);
   }
+  
+.email-icon-vibration:hover {
+  @apply animate-vibration;
+}

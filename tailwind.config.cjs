@@ -14,10 +14,17 @@ module.exports = {
           '25%': { transform: 'rotate(10deg)' },
           '75%': { transform: 'rotate(-10deg)' },
         },
+        vibration: {
+          '0%, 100%': { transform: 'rotate(0deg)' },
+          '25%': { transform: 'rotate(-5deg)' },
+          '75%': { transform: 'rotate(5deg)' },
+        },
       },
       animation: {
         tilt: 'tilt 0.5s ease-in-out 8',
+        vibration: 'vibration 0.1s ease-in-out infinite',
       },
+
     },
   },
   plugins: [],
