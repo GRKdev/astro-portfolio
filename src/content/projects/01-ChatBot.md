@@ -23,11 +23,11 @@ Creation of the chatbot using Streamlit. The user asks questions, and the chatbo
 
 ## Technologies
 
-- [Python](https://www.python.org/):
-  - Language used for the project backend and frontend. 
+# [Python](https://www.python.org/):
+Language used for the project backend and frontend. 
 
-- [Flask](https://flask.palletsprojects.com/en/2.0.x/):
-  - Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. API for connection to MongoDB database.
+# [Flask](https://flask.palletsprojects.com/en/2.0.x/):
+Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. API for connection to MongoDB database.
 
 - [Streamlit](https://streamlit.io/)
   - Streamlit is an open-source Python library that makes it easy to create and share beautiful, custom web apps for machine learning and data science.
