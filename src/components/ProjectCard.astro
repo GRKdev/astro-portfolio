@@ -10,6 +10,7 @@ type Props = {
 };
 
 const { title, description, slug, image, imgAlt, technologies } = Astro.props;
+
 ---
 
 <a
@@ -53,8 +54,11 @@ const { title, description, slug, image, imgAlt, technologies } = Astro.props;
   </p>
 
   <div class="flex flex-row flex-wrap pt-4 gap-2 justify-center">
-    {technologies.map((tech, index) => (
-      <img  src={tech} alt={`Technology ${index}`} class="h-5"/>
-    ))}
+    {technologies.map((tech) => {
+      const techName = tech.split('/')[2].split('.')[0];
+      return (
+        <img src={tech} alt={`${techName}`} class="h-5"/>
+      );
+    })}
   </div>
 </a>

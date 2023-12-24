@@ -25,26 +25,25 @@ const fulltitle = "Gorka V. - " + project.data.title;
 
 <Layout title={fulltitle}>
   <main class="post mx-auto flex w-9/12 flex-col gap-4">
-
-
     <div role="list" class="flex flex-row gap-2 justify-center" >
       {project.data.github && (
         <a href={project.data.github} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }} class="text-indigo-100 hover:text-indigo-500 cursor-pointer">
           Github
         </a>
       )}
-  {project.data.github && project.data.website && <> / </>}
-  {project.data.website && (
-    <a href={project.data.website} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }} class="text-indigo-100 hover:text-indigo-500 cursor-pointer ">
-      Website
-    </a>
-  )}
-</div>
-  {project.data.image && project.data.image.src && (
-    <img src={project.data.image.src}
-        class="h-48 w-3/4 object-cover rounded-lg mx-auto" alt={project.data.image.alt}
-    />
-  )}
+      {project.data.github && project.data.website && <> / </>}
+      {project.data.website && (
+        <a href={project.data.website} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }} class="text-indigo-100 hover:text-indigo-500 cursor-pointer ">
+          Website
+        </a>
+      )}
+    </div>
+
+    {project.data.image && project.data.image.src && (
+      <img src={project.data.image.src}
+          class="h-48 w-3/4 object-cover rounded-lg mx-auto" alt={project.data.image.alt}
+      />
+    )}
 
     
     <Content />

@@ -50,8 +50,8 @@ const projects = (await getCollection("projects")).sort(function (first, second)
             <p>{project.data.description}</p>
             <div class="flex flex-row flex-wrap pt-4 gap-2">
               {project.data.technologies.map((tech: string, index: number) => (
-  <img src={tech} alt={`Technology ${index}`} class="h-5"/>
-))}
+                <img src={tech} alt={`Technology ${index}`} class="h-5"/>
+              ))}
             </div>
           </a>
         ))
