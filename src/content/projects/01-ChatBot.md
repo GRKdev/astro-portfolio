@@ -8,6 +8,7 @@ technologies:
   - "/svg/python.svg"
   - "/svg/streamlit.svg"
   - "/svg/openai.svg"
+  - "/svg/flask.svg"
   - "/svg/mongodb.svg"
   - "/svg/docker.svg"
 image: 
@@ -17,7 +18,7 @@ github: "https://github.com/GRKdev/StreamLit-Api"
 website: "https://langchat.iand.dev/"
 ---
 
-## ChatBot Streamlit
+## ChatBot API
 
 Creation of the chatbot using Streamlit. The user asks questions, and the chatbot with the fine-tuning model returns a response via a request to the API URL.
 
@@ -29,6 +30,7 @@ You can upload documents for RAG ( Retrieval-Augmented Generation) and Q&A (Ques
 
 ### [Python](https://www.python.org/):
 Language used for the project backend and frontend. 
+
 
 ### [Flask](https://flask.palletsprojects.com/en/2.0.x/):
 Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. API for connection to MongoDB database.
