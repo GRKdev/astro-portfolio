@@ -10,8 +10,10 @@ image:
 github: "https://github.com/GRKdev/Script-SQL-API"
 website: ""
 technologies:
-  - "/svg/python.svg"
-  - "/svg/openai.svg"
+  - name: "Python"
+    route: "/svg/python.svg"
+  - name: "OpenAI"
+    route: "/svg/openai.svg"
 ---
 
 ## JsonL Generator for API Queries to MongoDB Database

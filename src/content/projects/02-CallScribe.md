@@ -10,13 +10,20 @@ image:
 github: "https://github.com/GRKdev/Callscribe"
 website: "https://cc.iand.dev/"
 technologies:
-  - "/svg/react.svg"
-  - "/svg/nextjs.svg"
-  - "/svg/python.svg"
-  - "/svg/fastapi.svg"
-  - "/svg/openai.svg"
-  - "/svg/mongodb.svg"
-  - "/svg/docker.svg"
+  - name: "React"
+    route: "/svg/react.svg"
+  - name: "Next.js"
+    route: "/svg/nextjs.svg"
+  - name: "Python"
+    route: "/svg/python.svg"
+  - name: "FastAPI"
+    route: "/svg/fastapi.svg"
+  - name: "OpenAI"
+    route: "/svg/openai.svg"
+  - name: "MongoDB"
+    route: "/svg/mongodb.svg"
+  - name: "Docker"
+    route: "/svg/docker.svg"
 ---
 
 

@@ -10,11 +10,16 @@ image:
 github: ""
 website: "https://iand.dev/"
 technologies:
-  - "/svg/react.svg"
-  - "/svg/nextjs.svg"
-  - "/svg/vercel.svg"
-  - "/svg/shadcn.svg"
-  - "/svg/mongodb.svg"
+  - name: "React"
+    route: "/svg/react.svg"
+  - name: "Next.js"
+    route: "/svg/nextjs.svg"
+  - name: "Vercel"
+    route: "/svg/vercel.svg"
+  - name: "Shadcn"
+    route: "/svg/shadcn.svg"
+  - name: "MongoDB"
+    route: "/svg/mongodb.svg"
 ---
 
 ## Hello World

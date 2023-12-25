@@ -1,21 +1,27 @@
 ---
-title: "Chatbot API"
+title: "Chatbot + API"
 publishedAt: 2023-05-24
 description: "Sophisticated interface that enables real-time interaction with our business database, providing access to customer records, item inventory, delivery notes, and financial metrics."
 slug: "chatbot-api"
 isPublish: true
-technologies:
-  - "/svg/python.svg"
-  - "/svg/streamlit.svg"
-  - "/svg/openai.svg"
-  - "/svg/flask.svg"
-  - "/svg/mongodb.svg"
-  - "/svg/docker.svg"
 image: 
   src: "/post_img/chatbot.webp"
   alt: "Chatbot API"
 github: "https://github.com/GRKdev/StreamLit-Api"
 website: "https://langchat.iand.dev/"
+technologies:
+  - name: "Python"
+    route: "/svg/python.svg"
+  - name: "Streamlit"
+    route: "/svg/streamlit.svg"
+  - name: "OpenAI"
+    route: "/svg/openai.svg"
+  - name: "Flask"
+    route: "/svg/flask.svg"
+  - name: "MongoDB"
+    route: "/svg/mongodb.svg"
+  - name: "Docker"
+    route: "/svg/docker.svg"
 ---
 
 ## ChatBot API
@@ -41,17 +47,17 @@ Streamlit is an open-source Python library that makes it easy to create and shar
 ### [Streamlit-Echarts](https://github.com/andfanilo/streamlit-echarts)
 Streamlit component for Apache ECharts, a powerful, interactive charting and visualization library for browser.
 
-### [Helicone](https://helicone.ai/)
-Helicone is a tool for collecting feedback on the quality of the chatbot's responses.
-
-### [Lakera](https://lakera.ai/)
-Lakera is a tool for detecting hate speech and sexual messages.
-
 ### [OpenAI](https://openai.com/)
 Using models from OpenAI API. a babbage model was used for fine-tuning, GPT-3.5 Turbo for generating responses, and GPT-3.5 Finetuned for generating responses if there are no results in the database.
 
 ### [Mistral-7B](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF)
 Mistral-7B is a OpenSource Model for Question Answering and Chatbot.
+
+### [Helicone](https://helicone.ai/)
+Helicone is a tool for collecting feedback on the quality of the chatbot's responses.
+
+### [Lakera](https://lakera.ai/)
+Lakera is a tool for detecting hate speech and sexual messages.
 
 ### [Llama-Index](https://docs.llamaindex.ai/en/stable/)
 Llama Index is a tool for creating embeddings for documents.

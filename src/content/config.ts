@@ -14,7 +14,10 @@ const projectsCollection = defineCollection({
     }),
     github: z.string(),
     website: z.string(),
-    technologies: z.array(z.string()),
+    technologies: z.array(z.object({
+      name: z.string(),
+      route: z.string(),
+    })),
   }),
 });
 

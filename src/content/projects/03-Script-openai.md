@@ -10,10 +10,10 @@ image:
 github: "https://github.com/GRKdev/FTUP"
 website: ""
 technologies:
-  - "/svg/python.svg"
-  - "/svg/openai.svg"
-
-
+  - name: "Python"
+    route: "/svg/python.svg"
+  - name: "OpenAI"
+    route: "/svg/openai.svg"
 ---
 
 ## FT-UP: OpenAI FineTuning Upload Script

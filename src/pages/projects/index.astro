@@ -52,10 +52,8 @@ const projects = (await getCollection("projects")).sort(function (first, second)
               {project.data.technologies && (
       <div class="flex flex-row gap-2">
         {project.data.technologies.map((tech) => {
-      const techName = tech.split('/')[2].split('.')[0];
-      const capitalizedTechName = techName.charAt(0).toUpperCase() + techName.slice(1);
       return (
-        <img src={tech} alt={`${capitalizedTechName}`} title={capitalizedTechName} class="h-6"/>
+        <img src={tech.route} alt={`${tech.name}`} title={tech.name} class="h-6"/>
       );
     })}
       </div>
