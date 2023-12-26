@@ -14,7 +14,7 @@ type Presentation = {
 const presentation: Presentation = {
   mail: "gorka@iand.dev",
   title: "*Hi*, I’m Gorka ",
-  profile: "/12.jpeg",
+  profile: "/profile-logo.webp",
   description:
     "Andorran *developer* currently working with *Python, NextJS and Typescript*. Interested on how *AI* can help us to improve our lives. Learning about *Machine Learning* and *Data Science*.",
 
