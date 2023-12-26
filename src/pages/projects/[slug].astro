@@ -20,10 +20,11 @@ const { project } = Astro.props;
 const { Content } = await project.render();
 export const prerender = true;
 const fulltitle = "Gorka V. - " + project.data.title;
+const description = project.data.description;
 
 ---
 
-<Layout title={fulltitle}>
+<Layout title={fulltitle}, description={description}>
   <main class="post mx-auto flex w-9/12 flex-col gap-4">
     <div role="list" class="flex flex-row gap-2 justify-center" >
       {project.data.github && (
