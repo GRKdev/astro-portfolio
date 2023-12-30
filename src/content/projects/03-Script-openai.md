@@ -86,5 +86,6 @@ The script will load by default this key if not `-k / --key` passed as an argume
 ## Next Features:
 
 - [x] Cancel training pressing key
+- [x] Update to new OpenAI API
 - [ ] Adding Token and cost for Babbage model
 - [ ] Automate for creating train and validation files 80-20%

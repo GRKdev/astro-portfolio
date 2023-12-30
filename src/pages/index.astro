@@ -51,23 +51,21 @@ const projects = (await getCollection("projects")).sort(function (first, second)
         <h3 class="text-lg text-neutral-100">Projects ({projects.length})</h3>
         <Link href="/projects" label="See all projects" isUnderline target="_self" />
       </header>
-      {projects.length === 0 && <p>Soon, stay connected 👀...</p>}
 
       <section class="flex flex-col gap-4 md:flex-row md:flex-wrap">
         {
-          projects.length !== 0 &&
-            projects
-              .slice(0, 4)
-              .map((project) => (
-                <ProjectCard
-                  title={project.data.title}
-                  description={project.data.description}
-                  img_logo={project.data.img_logo.src}
-                  imgAlt={project.data.img_logo.alt}
-                  slug={project.slug}
-                  technologies={project.data.technologies}
-                />
-              ))
+          projects
+            .slice(0, 4)
+            .map((project) => (
+              <ProjectCard
+                title={project.data.title}
+                description={project.data.description}
+                img_logo={project.data.img_logo.src}
+                imgAlt={project.data.img_logo.alt}
+                slug={project.slug}
+                technologies={project.data.technologies}
+              />
+            ))
         }
       </section>
     </article>
