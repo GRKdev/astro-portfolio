@@ -6,7 +6,6 @@ const projectsCollection = defineCollection({
     title: z.string(),
     publishedAt: z.date(),
     description: z.string(),
-    isPublish: z.boolean(),
     isDraft: z.boolean().default(false),
     image: z.object({
       src: z.string(),

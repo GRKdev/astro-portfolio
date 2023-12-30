@@ -3,7 +3,6 @@ title: "Chatbot + API"
 publishedAt: 2023-05-24
 description: "Sophisticated interface that enables real-time interaction with our business database, providing access to customer records, item inventory, delivery notes, and financial metrics."
 slug: "chatbot-api"
-isPublish: true
 image: 
   src: "/post_img/chatbot.webp"
   alt: "Chatbot API"
