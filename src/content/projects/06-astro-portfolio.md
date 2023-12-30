@@ -4,7 +4,7 @@ publishedAt: 2018-05-23
 description: "Astro portfolio is a portfolio template created with Astro and TailwindCSS."
 slug: "astro-portfolio"
 image: 
-  src: "/public/opengraph-image.jpg"
+  src: "/opengraph-image.jpg"
   alt: "astro-portfolio"
 github: "https://github.com/GRKdev/astro-portfolio"
 website: "https://gorka.iand.dev/"
@@ -23,18 +23,18 @@ technologies:
     route: "/svg/vercel.svg"
 ---
 
-## 👨‍🚀 Astro - Portfolio
+##  Astro - Portfolio
 
 This portfolio is created/inspired by template from [Max](https://www.maxencewolff.com).
 
 NB: Additional color themes can also be configured on the `src/data/theme.ts` file.
 
-## 🥷 Usage
+## Usage
 
 - You can modify all the information in the files in the `data` folder (presentation, social links, projects list, colors).
 - You can write articles in `markdown` format in the `content/projects` folder.
 
-## 🧞 Commands
+## Commands
 
 All commands are run from the root of the project, from a terminal:
 
