@@ -2,7 +2,7 @@
 
 ![Template](/public/opengraph-image.jpg)
 
-This theme/template is inspired by [Max](https://www.maxencewolff.com).
+This portfolio is inspired by [Max](https://www.maxencewolff.com).
 
 NB: Additional color themes can also be configured on the `src/data/theme.ts` file.
 
