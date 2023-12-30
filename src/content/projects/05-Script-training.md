@@ -4,8 +4,11 @@ publishedAt: 2018-05-24
 description: "This program is a desktop tool that allows users to generate jsonL files to train a model with ADA (deprecated) and Babbage-002 by OpenAI. Currently, four types are supported: Clients, Articles, Delivery Notes and Finance Questions. There is a last tab to upload the training to OpenAI."
 slug: "script-training"
 image: 
-  src: ""
+  src: "/post_img/script-training_screen.webp"
   alt: "script-training"
+img_logo: 
+  src: ""
+  alt: ""
 github: "https://github.com/GRKdev/Script-SQL-API"
 website: ""
 technologies:

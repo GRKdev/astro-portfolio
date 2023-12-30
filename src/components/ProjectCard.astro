@@ -7,13 +7,13 @@ type Props = {
   title: string;
   description: string;
   slug: string;
-  image: string;
+  img_logo: string;
   imgAlt: string;
   technologies: Technology[];
 
 };
 
-const { title, description, slug, image, imgAlt, technologies } = Astro.props;
+const { title, description, slug, img_logo, imgAlt, technologies } = Astro.props;
 
 ---
 
@@ -22,7 +22,7 @@ const { title, description, slug, image, imgAlt, technologies } = Astro.props;
   href={`/projects/${slug}`}
 >
   <img
-    src={image}
+    src={img_logo}
     alt={imgAlt}
     class=" h-40 object-cover pb-5 rounded-md"
   />

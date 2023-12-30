@@ -4,8 +4,11 @@ publishedAt: 2020-05-24
 description: "This script is crafted to optimize the data preparation tasks required for fine-tuning OpenAI's language models such as GPT-3.5 and Babbage, thereby enhancing the model training setup."
 slug: "FT-UP"
 image: 
-  src: "/post_img/ftup.webp"
+  src: "/post_img/ftup-screen.webp"
   alt: "FT-UP"
+img_logo: 
+  src: "/post_img/ftup.webp"
+  alt: "FT-UP logo"
 github: "https://github.com/GRKdev/FTUP"
 website: ""
 technologies:
@@ -15,7 +18,7 @@ technologies:
     route: "/svg/openai.svg"
 ---
 
-## FT-UP: OpenAI FineTuning Upload Script
+## FT-UP: CLI OpenAI FineTuning Upload Script
 
 This script helps to automate the process of preparing data for finetuning on OpenAI models, specifically GPT-3.5 and Babbage. It also provides utilities to validate the data, transform the data to the required JSONL format, and estimate the cost of the finetuning process.
 

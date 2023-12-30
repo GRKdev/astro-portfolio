@@ -7,6 +7,7 @@ export type HeadTags = {
     type: string;
     description: string;
     image: string;
+    img_logo: string;
     alt: string;
   };
 };

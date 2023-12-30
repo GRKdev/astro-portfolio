@@ -4,8 +4,11 @@ publishedAt: 2022-05-24
 description: "Integrated call center management system with audio transcription, FastAPI for data handling, and a Next.js interface for accessing and interacting with conversation data."
 slug: "CallScribe"
 image: 
-  src: "/post_img/callscribe.webp"
+  src: "/post_img/callscribe_screen.webp"
   alt: "CallScribe"
+img_logo:
+  src: "/post_img/callscribe.webp"
+  alt: "CallScribe logo"
 github: "https://github.com/GRKdev/Callscribe"
 website: "https://cc.iand.dev/"
 technologies:

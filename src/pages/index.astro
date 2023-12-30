@@ -62,8 +62,8 @@ const projects = (await getCollection("projects")).sort(function (first, second)
                 <ProjectCard
                   title={project.data.title}
                   description={project.data.description}
-                  image={project.data.image.src}
-                  imgAlt={project.data.image.alt}
+                  img_logo={project.data.img_logo.src}
+                  imgAlt={project.data.img_logo.alt}
                   slug={project.slug}
                   technologies={project.data.technologies}
                 />

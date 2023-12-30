@@ -4,8 +4,11 @@ publishedAt: 2023-05-24
 description: "Sophisticated interface that enables real-time interaction with our business database, providing access to customer records, item inventory, delivery notes, and financial metrics."
 slug: "chatbot-api"
 image: 
-  src: "/post_img/chatbot.webp"
+  src: "/post_img/chatbot_screen.webp"
   alt: "Chatbot API"
+img_logo:
+  src: "/post_img/chatbot.webp"
+  alt: "Chatbot API logo"
 github: "https://github.com/GRKdev/StreamLit-Api"
 website: "https://langchat.iand.dev/"
 technologies:
