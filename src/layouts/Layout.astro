@@ -1,5 +1,6 @@
 ---
 import Header from "../components/Header.astro";
+import Footer from "@/components/Footer.astro";
 import BlurCircle from "@/components/shared/BlurCircle.astro";
 import theme from "@/data/theme";
 import SEOTags from "@/components/seo/SEOTags.astro";
@@ -30,5 +31,6 @@ const headTags = Astro.props;
         font-family: "Open Sans";
       }
     </style>
+    <Footer />
   </body>
 </html>
