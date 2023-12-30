@@ -42,7 +42,8 @@ const description = project.data.description;
 
     {project.data.image && project.data.image.src && (
       <img src={project.data.image.src}
-          class="h-48 w-3/4 object-cover rounded-lg mx-auto" alt={project.data.image.alt}
+      class="h-auto w-full md:w-3/4 object-cover rounded-lg mx-auto"
+      alt={project.data.image.alt}
       />
     )}
 
