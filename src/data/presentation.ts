@@ -16,7 +16,7 @@ const presentation: Presentation = {
   title: "*Hi*, I’m Gorka ",
   profile: "/profile-logo.webp",
   description:
-    "**IT** Systems Technician with a growing interest in **coding**, currently enhancing my skills in **Python**, **NextJS**, and **Typescript**. Fascinated by **AI** and its potential, exploring **Machine Learning** and **LLMS**. Aiming to blend these technologies with my **IT** expertise.",
+    "**IT** Systems Technician with a growing interest in **coding**, currently enhancing my skills in **B**ackend with **Python** and **F**rontend with **NextJS** or **Astro**. Fascinated by **AI** and its potential, exploring **Machine Learning** and **LLM**'s. Aiming to blend these technologies with my **IT** expertise.",
 
   socials: [
     {
