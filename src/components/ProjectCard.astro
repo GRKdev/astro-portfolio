@@ -10,22 +10,30 @@ type Props = {
   img_logo: string;
   imgAlt: string;
   technologies: Technology[];
+  image: string;
 
 };
 
-const { title, description, slug, img_logo, imgAlt, technologies } = Astro.props;
+const { title, description, slug, img_logo, image, imgAlt, technologies } = Astro.props;
 
 ---
 
 <a
-  class="group flex max-w-sm cursor-pointer flex-col gap-2 rounded-md border border-neutral-700 p-5 transition-all duration-300 hover:-translate-y-2 hover:border-neutral-400 z-10"
+  class="group relative max-w-sm cursor-pointer flex flex-col gap-2 rounded-md border border-neutral-700 p-5 transition-all duration-300 hover:-translate-y-2 hover:border-neutral-400 z-10"
   href={`/projects/${slug}`}
 >
-  <img
-    src={img_logo}
-    alt={imgAlt}
-    class=" h-40 object-cover pb-5 rounded-md"
-  />
+  <div class="relative h-40 overflow-hidden rounded-md">
+    <img
+      src={img_logo}
+      alt={imgAlt}
+      class="absolute inset-0 h-full w-full object-cover duration-500 ease-in-out group-hover:opacity-0"
+    />
+    <img
+      src={image}
+      alt={imgAlt}
+      class="absolute rounded-md inset-0 h-99 object-cover transition-transform duration-500 ease-in-out translate-y-full group-hover:translate-y-0"
+    />
+  </div>
   <div
     class="flex w-full flex-col justify-between gap-2 md:flex-row md:items-center"
   >

@@ -62,6 +62,7 @@ const projects = (await getCollection("projects")).sort(function (first, second)
                 description={project.data.description}
                 img_logo={project.data.img_logo.src}
                 imgAlt={project.data.img_logo.alt}
+                image={project.data.image.src}
                 slug={project.slug}
                 technologies={project.data.technologies}
               />
