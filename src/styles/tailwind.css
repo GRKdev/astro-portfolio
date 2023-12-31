@@ -18,22 +18,15 @@
   }
   
   .image-container img {
-    transition: transform 0.3s ease;
-    width: 100%;
-    height: auto;
+    transform: scale(1.3);
   }
   
-  .image-container:hover img {
-    transform: scale(1.4);
-  }
-
 .email-icon-vibration {
   margin-bottom: 0.28em;
 }
 
 .email-icon-vibration:hover {
   @apply animate-vibration;
-  
 }
 
 .align-bottom {

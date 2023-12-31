@@ -7,8 +7,8 @@ image:
   src: "/opengraph-image.jpg"
   alt: "astro-portfolio"
 img_logo: 
-  src: "/opengraph-image.jpg"
-  alt: "astro-portfolio logo"
+  src: ""
+  alt: ""
 github: "https://github.com/GRKdev/astro-portfolio"
 website: "https://gorka.iand.dev/"
 technologies:

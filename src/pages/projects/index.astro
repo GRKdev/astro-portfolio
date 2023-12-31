@@ -3,10 +3,8 @@ import { getCollection } from "astro:content";
 import Layout from "@/layouts/Layout.astro";
 
 const projects = (await getCollection("projects")).sort(function (first, second) {
-  return first.data.publishedAt.getTime() - second.data.publishedAt.getTime();
+  return second.data.publishedAt.getTime() - first.data.publishedAt.getTime();
 });
-
-
 ---
 
 <Layout title="Gorka V. - All Projects">
