@@ -2,6 +2,7 @@
 import { SEO } from "astro-seo";
 import { SITE_URL } from "@/data/config";
 import type { HeadTags } from "@/utils/types/HeadTags";
+import { ViewTransitions } from "astro:transitions";
 
 type Props = HeadTags;
 
@@ -60,4 +61,5 @@ const openGraph = {
       ],
     }}
   />
+  <ViewTransitions />
 </head>
