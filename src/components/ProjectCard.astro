@@ -21,23 +21,23 @@ const { title, description, slug, img_logo, image, imgAlt, technologies } = Astr
   class="group relative max-w-sm cursor-pointer flex flex-col gap-2 rounded-md border border-neutral-700 p-5 transition-all duration-300 hover:-translate-y-2 hover:border-neutral-400 z-10"
   href={`/projects/${slug}`}
 >
-  <div class="relative h-40 overflow-hidden rounded-md">
-    {img_logo ? (
-      <img
-        src={img_logo}
-        alt={imgAlt}
-        class={`absolute inset-0 h-full w-full object-cover ${image ? 'duration-500 ease-in-out group-hover:opacity-0' : ''}`}
-      />
-    ) : null}
-    
-    {image ? (
-      <img
-        src={image}
-        alt={imgAlt}
-        class={`absolute rounded-md inset-0 h-99 object-cover ${img_logo ? 'transition-transform duration-500 ease-in-out translate-y-full group-hover:translate-y-0' : ''}`}
-      />
-    ) : null}
-  </div>
+<div class="relative h-40 overflow-hidden rounded-md">
+  {img_logo ? (
+    <img
+      src={img_logo}
+      alt={imgAlt}
+      class="image-logo"
+    />
+  ) : null}
+  
+  {image ? (
+    <img
+      src={image}
+      alt={imgAlt}
+      class={`image-main ${img_logo ? 'with-logo' : ''}`}
+    />
+  ) : null}
+</div>
 
   <div
     class="flex w-full flex-col justify-between gap-2 md:flex-row md:items-center"

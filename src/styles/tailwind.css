@@ -32,3 +32,41 @@
 .align-bottom {
   vertical-align: bottom;
 }
+
+.image-logo {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block; 
+}
+
+.image-main {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+  display: none;
+}
+
+@media (min-width: 568px) {
+  .image-logo.with-logo {
+    transition: opacity 100ms ease-in-out;
+  }
+
+  .image-main.with-logo {
+    display: block;
+    transition: transform 500ms ease-in-out;
+    transform: translateY(100%);
+  }
+
+  .group:hover .image-logo.with-logo {
+    opacity: 0; 
+  }
+
+  .group:hover .image-main.with-logo {
+    transform: translateY(0); 
+  }
+}
