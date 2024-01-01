@@ -28,7 +28,7 @@ technologies:
 
 ##  Astro - Portfolio
 
-This portfolio is created/inspired by template from [Max](https://www.maxencewolff.com).
+This portfolio is created/inspired by template from [Max](https://www.maxencewolff.com). - [Template GitHub](https://github.com/MaeWolff/astro-portfolio-template)
 
 NB: Additional color themes can also be configured on the `src/data/theme.ts` file.
 
