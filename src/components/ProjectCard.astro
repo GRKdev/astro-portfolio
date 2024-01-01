@@ -19,7 +19,9 @@ const { title, description, slug, img_logo, image, imgAlt, technologies } = Astr
 
 <a
   class="group relative max-w-sm cursor-pointer flex flex-col gap-2 rounded-md border border-neutral-700 p-5 transition-all duration-300 hover:-translate-y-2 hover:border-neutral-400 z-10"
-  href={`/projects/${slug}`}
+  transition:name={`${image} image`}
+  href={`/projects/${slug}`
+}
 >
 <div class="relative h-40 overflow-hidden rounded-md">
   {img_logo ? (
@@ -27,14 +29,15 @@ const { title, description, slug, img_logo, image, imgAlt, technologies } = Astr
       src={img_logo}
       alt={imgAlt}
       class="image-logo"
-    />
-  ) : null}
+      />
+      ) : null}
   
   {image ? (
     <img
-      src={image}
-      alt={imgAlt}
-      class={`image-main ${img_logo ? 'with-logo' : ''}`}
+    src={image}
+    alt={imgAlt}
+    class={`image-main ${img_logo ? 'with-logo' : ''}`}
+
     />
   ) : null}
 </div>
