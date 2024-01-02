@@ -70,3 +70,7 @@
     transform: translateY(0); 
   }
 }
+
+.description_project {
+  text-wrap: balance;
+}
