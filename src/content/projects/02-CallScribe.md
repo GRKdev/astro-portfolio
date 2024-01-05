@@ -61,3 +61,37 @@ This comprehensive system integrates audio file processing, backend management, 
   - Responsive design for various screen sizes.
   - Sentiment analysis visualization.
   - Enables status updates of conversations.
+
+## Setup and Installation
+
+### Common Requirements
+- Python and MongoDB installed.
+- Set environment variables for API keys and MongoDB URI.
+
+
+### Audio Processor
+1. Install dependencies: `pip install pymongo watchdog requests openai python-dotenv`
+2. Run script: `python app.py`
+3. Set up MongoDB database and collection.
+4. Set environment variables for MongoDB URI, Gladia API key, and OpenAI API key.
+
+### FastAPI Backend
+1. Clone repository and install dependencies.
+2. Start server: `uvicorn main:app --reload`
+
+### Next.js Frontend
+1. Set up Next.js environment.
+2. Configure to connect with the FastAPI backend.
+3. Start server: `npm run dev`
+4. Build for production: `npm run build`
+
+## Usage
+
+1. Place audio files in the monitored directory for the Audio Processor.
+2. Use the FastAPI backend to manage and retrieve conversation data.
+3. Access the Next.js frontend to view conversation details.
+
+## Notes
+
+- Each component is designed to work seamlessly with the others.
+- Ensure all environment variables are correctly set for smooth operation.
