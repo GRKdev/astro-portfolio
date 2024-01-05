@@ -29,7 +29,11 @@ technologies:
 ---
 
 
+
+
 ## CallScribe
+
+
 This comprehensive system integrates audio file processing, backend management, and frontend display to handle call center conversations. It processes audio files for transcription and analysis, manages conversation data via a FastAPI backend, and displays conversation details through a Next.js frontend.
 
 ## Overview
@@ -95,3 +99,8 @@ This comprehensive system integrates audio file processing, backend management, 
 
 - Each component is designed to work seamlessly with the others.
 - Ensure all environment variables are correctly set for smooth operation.
+
+<div style="display: flex; justify-content: center; ">
+  <img src="https://img.shields.io/github/stars/GRKdev/callscribe.svg" alt="GitHub Stars" style="margin-right: 10px;"/>
+  <img src="https://img.shields.io/github/last-commit/GRKdev/callscribe.svg" alt="GitHub Last Commit" />
+</div>

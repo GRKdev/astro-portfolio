@@ -47,3 +47,8 @@ There is a last tab to upload the training to OpenAI.
 This training is specifically designed to create API URLs that connect to this project: [API Docker Ngrok](https://github.com/GRKdev/api-docker-ngrok).
 
 This is the main project: [Chatbot StreamLit](https://github.com/GRKdev/StreamLit-Api)
+
+<div style="display: flex; justify-content: center; ">
+  <img src="https://img.shields.io/github/stars/GRKdev/Script-SQL-API.svg" alt="GitHub Stars" style="margin-right: 10px;"/>
+  <img src="https://img.shields.io/github/last-commit/GRKdev/Script-SQL-API.svg" alt="GitHub Last Commit" />
+</div>
