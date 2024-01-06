@@ -74,3 +74,9 @@
 .description_project {
   text-wrap: balance;
 }
+/* Mobile devices */
+@media (max-width: 767px) {
+  :root {
+    --view-transition-name: none;
+  }
+}

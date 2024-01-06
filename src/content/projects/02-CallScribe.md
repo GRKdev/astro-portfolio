@@ -100,7 +100,7 @@ This comprehensive system integrates audio file processing, backend management, 
 - Each component is designed to work seamlessly with the others.
 - Ensure all environment variables are correctly set for smooth operation.
 
-<div style="display: flex; justify-content: center; ">
+<div style="display: flex; justify-content: center; padding-top: 40px">
   <img src="https://img.shields.io/github/stars/GRKdev/callscribe.svg" alt="GitHub Stars" style="margin-right: 10px;"/>
   <img src="https://img.shields.io/github/last-commit/GRKdev/callscribe.svg" alt="GitHub Last Commit" />
 </div>

@@ -85,7 +85,7 @@ MongoDB is a document-oriented database program. Classified as a NoSQL database 
 - [ ] Creation of Agents and Custom Functions
 
 
-<div style="display: flex; justify-content: center; ">
+<div style="display: flex; justify-content: center; padding-top: 40px">
   <img src="https://img.shields.io/github/stars/GRKdev/StreamLit-Api.svg" alt="GitHub Stars" style="margin-right: 10px;"/>
   <img src="https://img.shields.io/github/last-commit/GRKdev/Streamlit-API.svg" alt="GitHub Last Commit" />
 </div>

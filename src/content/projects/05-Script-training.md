@@ -48,7 +48,7 @@ This training is specifically designed to create API URLs that connect to this p
 
 This is the main project: [Chatbot StreamLit](https://github.com/GRKdev/StreamLit-Api)
 
-<div style="display: flex; justify-content: center; ">
+<div style="display: flex; justify-content: center; padding-top: 40px">
   <img src="https://img.shields.io/github/stars/GRKdev/Script-SQL-API.svg" alt="GitHub Stars" style="margin-right: 10px;"/>
   <img src="https://img.shields.io/github/last-commit/GRKdev/Script-SQL-API.svg" alt="GitHub Last Commit" />
 </div>

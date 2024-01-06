@@ -90,7 +90,7 @@ The script will load by default this key if not `-k / --key` passed as an argume
 - [ ] Adding Token and cost for Babbage model
 - [ ] Automate for creating train and validation files 80-20%
 
-<div style="display: flex; justify-content: center; ">
+<div style="display: flex; justify-content: center; padding-top: 40px">
   <img src="https://img.shields.io/github/stars/GRKdev/FTUP.svg" alt="GitHub Stars" style="margin-right: 10px;"/>
   <img src="https://img.shields.io/github/last-commit/GRKdev/FTUP.svg" alt="GitHub Last Commit" />
 </div>
