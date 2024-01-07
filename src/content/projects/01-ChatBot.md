@@ -9,7 +9,7 @@ image:
 img_logo:
   src: "/post_img/chatbot.webp"
   alt: "Chatbot API logo"
-github: "https://github.com/GRKdev/StreamLit-Api"
+github: "https://github.com/GRKdev/Streamlit-API-Flask-Mistral"
 website: "https://langchat.iand.dev/"
 technologies:
   - name: "Python"
@@ -87,5 +87,5 @@ MongoDB is a document-oriented database program. Classified as a NoSQL database 
 
 <div style="display: flex; justify-content: center; padding-top: 40px">
   <img src="https://img.shields.io/github/stars/GRKdev/StreamLit-Api.svg" alt="GitHub Stars" style="margin-right: 10px;"/>
-  <img src="https://img.shields.io/github/last-commit/GRKdev/Streamlit-API.svg" alt="GitHub Last Commit" />
+  <img src="https://img.shields.io/github/last-commit/GRKdev/Streamlit-API-Flask-Mistral.svg" alt="GitHub Last Commit" />
 </div>
