@@ -23,4 +23,3 @@ pnpm-debug.log*
 docker-compose.yml
 Dockerfile
 
-package-lock.json
