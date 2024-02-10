@@ -6,7 +6,7 @@ import theme from "@/data/theme";
 import SEOTags from "@/components/seo/SEOTags.astro";
 import type { HeadTags } from "@/utils/types/HeadTags";
 
-import "@fontsource/open-sans";
+import "@fontsource-variable/montserrat";
 import "@/styles/tailwind.css";
 import "@/styles/project.css";
 
@@ -28,7 +28,7 @@ const headTags = Astro.props;
     <slot />
     <style is:global>
       html {
-        font-family: "Open Sans";
+        font-family: 'Montserrat Variable', sans-serif;
         scrollbar-color: #3A3538 #0B0B0C;
       }
     </style>
