@@ -1,7 +1,7 @@
 ---
 title: "Crisp Chatbot (In Progress)"
 publishedAt: 2017-05-22
-description: "Integration of Crisp Chatbot in a Javascript API."
+description: "Integration of Crisp Chatbot and OpenAI with a JavaScript API."
 slug: "crisp-chatbot"
 image: 
   src: ""
