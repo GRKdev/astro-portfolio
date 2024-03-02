@@ -325,6 +325,5 @@ async function setLanguage(websiteId, sessionId, language) {
     await updateConversationMeta(websiteId, sessionId, data, "Language set to:");
 }
 ``` 
-<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="5d6e4af8-ffb1-43c3-bd51-19ec0a0d54ce";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 
 
