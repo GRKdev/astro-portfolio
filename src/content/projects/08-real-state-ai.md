@@ -22,6 +22,8 @@ technologies:
     route: "/svg/vercel.svg"
   - name: "Shadcn"
     route: "/svg/shadcn.svg"
+  - name: "Clerk"
+    route: "/svg/clerk.svg"
 
 ---
 
@@ -60,7 +62,8 @@ Example of a traning data:
 - **OpenAI's GPT (Babbage-02)**: A language model fine-tuned for this application to understand and process real estate queries efficiently.
 - **Vercel PostgreSQL**: My choice for a highly scalable and managed database solution, ensuring robust and secure data management.
 - **Deployment on Vercel Servers**: For seamless hosting and superior performance, our platform is deployed on Vercel's cutting-edge infrastructure.
+- **Clerk**: A user authentication service that provides secure and customizable login functionality for our Real Estate Search Engine. 
 
 ### Demo
 
-Experience our Real Estate Search Engine firsthand at [rs.iand.dev](https://rs.iand.dev).
+Experience our Real Estate Search Engine firsthand at [rs.iand.dev](https://rs.iand.dev). U will need to authenticate with Google, Github, or your email with Clerk to access the platform.
