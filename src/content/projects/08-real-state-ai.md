@@ -60,9 +60,10 @@ Example of a traning data:
 
 - **Next.js**: A React framework that enables functionality such as server-side rendering and generating static websites. Used for building the frontend interface, providing a dynamic and responsive user experience.
 - **OpenAI's GPT (Babbage-02)**: A language model fine-tuned for this application to understand and process real estate queries efficiently.
+- **OpenAI's Whisper**: An Speech-to-Text API  that allows users to input search queries via voice commands.
 - **Vercel PostgreSQL**: My choice for a highly scalable and managed database solution, ensuring robust and secure data management.
 - **Deployment on Vercel Servers**: For seamless hosting and superior performance, our platform is deployed on Vercel's cutting-edge infrastructure.
-- **Clerk**: A user authentication service that provides secure and customizable login functionality for our Real Estate Search Engine. 
+- **Clerk**: A user authentication service that provides secure and customizable login functionality for our Real Estate Search Engine.
 
 ### Demo
 
