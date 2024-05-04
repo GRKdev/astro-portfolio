@@ -68,3 +68,7 @@ Example of a traning data:
 ### Demo
 
 Experience our Real Estate Search Engine firsthand at [rs.iand.dev](https://rs.iand.dev). U will need to authenticate with Google, Github, or your email with Clerk to access the platform.
+
+<div style="display: flex; justify-content: center; padding-top: 40px">
+  <img src="https://img.shields.io/github/last-commit/GRKdev/Real-State-AI.svg" alt="GitHub Last Commit" />
+</div>
